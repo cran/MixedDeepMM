@@ -1,0 +1,15 @@
+MixedDeepMM is distributed under the GNU General Public License,
+version 3 or later (GPL >= 3), as declared in DESCRIPTION.
+
+The continuous deep Gaussian model code includes adaptations of the
+open-source R package deepgmm (GPL >= 3), by Cinzia Viroli and Geoffrey J.
+McLachlan; the upstream CRAN package was maintained by Suren Rathnayake.
+Upstream reference: https://CRAN.R-project.org/package=deepgmm
+
+Additional robust, skew-t, mixed-response, diagnostic, and integration code
+originates from the research source archive and MixedDeepMM development.
+Code ancestry and scientific limitations are described in
+inst/references/PROVENANCE.md and inst/MODEL_SCOPE.md.
+
+This notice documents upstream credit and the release license; it does not
+supersede or remove any applicable third-party copyright.

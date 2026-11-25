@@ -1,0 +1,19 @@
+Source acknowledgments
+======================
+
+MixedDeepMM package authors:
+  Jinran Wu; Geoffrey J. McLachlan (see DESCRIPTION).
+
+Deep Gaussian mixture model methods and inherited code:
+  Cinzia Viroli; Geoffrey J. McLachlan, original authors of deepgmm.
+  Suren Rathnayake, maintainer of upstream deepgmm R package.
+  deepgmm 0.2.1 is distributed on CRAN under GPL (>= 3).
+  https://CRAN.R-project.org/package=deepgmm
+
+Robust, skew-t and mixed-type model extensions:
+  Integrated research source archive and MixedDeepMM project development.
+  Where independent contributors hold copyright, they retain ownership;
+  the package's standard license does not eliminate attribution rights.
+
+This file records author and source attribution rather than assigning
+individual third-party copyright ownership without evidence.

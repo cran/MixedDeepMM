@@ -1,0 +1,32 @@
+Package: MixedDeepMM
+Type: Package
+Title: Deep Mixture Models for Continuous and Mixed-Type Data
+Version: 0.1.0
+Authors@R: c(
+    person("Jinran", "Wu", role = c("aut", "cre"), email = "jinran.wu@uq.edu.au"),
+    person("Geoffrey J.", "McLachlan", role = "aut")
+    )
+Description: Fits Gaussian, Student-t and skew-t deep mixture models to
+    continuous observations, and single-head and two-head latent mixture
+    models to combinations of continuous, binary, ordinal, nominal and count
+    measurements. Mixed-response estimation uses Monte Carlo expectation-
+    maximisation with structured data-derived initialisation. Utilities for
+    posterior clustering, Gower dissimilarity, silhouette evaluation,
+    adjusted Rand index and misclassification rate are provided. Original deep Gaussian mixture models
+    are described by Viroli and McLachlan (2019)
+    <doi:10.1007/s11222-017-9793-z>.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats, utils, graphics
+Suggests: mvtnorm, corpcor, GIGrvg, cluster, mclust, testthat (>=
+        3.0.0)
+Config/testthat/edition: 3
+NeedsCompilation: no
+Config/roxygen2/version: 8.1.1
+Packaged: 2026-11-01 11:30:04 UTC; wujrt
+Author: Jinran Wu [aut, cre],
+  Geoffrey J. McLachlan [aut]
+Maintainer: Jinran Wu <jinran.wu@uq.edu.au>
+Repository: CRAN
+Date/Publication: 2026-11-25 12:10:02 UTC
